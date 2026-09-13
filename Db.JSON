@@ -1,0 +1,646 @@
+{
+    "stats": [
+        {
+            "id": 1,
+            "label": "Available to withdraw",
+            "value": "$1,567.99",
+            "change": "10.0%",
+            "trend": "up",
+            "sub": "Wed, Jul 20"
+        },
+        {
+            "id": 2,
+            "label": "Today Revenue",
+            "value": "$2,868.99",
+            "change": "9.6%",
+            "trend": "down",
+            "sub": "143 Orders"
+        },
+        {
+            "id": 3,
+            "label": "Today Sessions",
+            "value": "156k",
+            "change": "0.2%",
+            "trend": "up",
+            "sub": "324 Visitors"
+        },
+        {
+            "id": 4,
+            "label": "Subscribers",
+            "value": "3,422",
+            "change": "8.3%",
+            "trend": "up",
+            "sub": "$32.48 Average Order"
+        }
+    ],
+    "funnelThisMonth": [
+        {
+            "id": 1,
+            "day": "1",
+            "value": 320
+        },
+        {
+            "id": 2,
+            "day": "3",
+            "value": 280
+        },
+        {
+            "id": 3,
+            "day": "5",
+            "value": 260
+        },
+        {
+            "id": 4,
+            "day": "7",
+            "value": 300
+        },
+        {
+            "id": 5,
+            "day": "9",
+            "value": 260
+        },
+        {
+            "id": 6,
+            "day": "11",
+            "value": 340
+        },
+        {
+            "id": 7,
+            "day": "13",
+            "value": 300
+        },
+        {
+            "id": 8,
+            "day": "15",
+            "value": 600
+        },
+        {
+            "id": 9,
+            "day": "17",
+            "value": 340
+        },
+        {
+            "id": 10,
+            "day": "19",
+            "value": 300
+        },
+        {
+            "id": 11,
+            "day": "21",
+            "value": 360
+        },
+        {
+            "id": 12,
+            "day": "23",
+            "value": 260
+        },
+        {
+            "id": 13,
+            "day": "25",
+            "value": 300
+        },
+        {
+            "id": 14,
+            "day": "27",
+            "value": 260
+        },
+        {
+            "id": 15,
+            "day": "29",
+            "value": 280
+        }
+    ],
+    "funnelLastMonth": [
+        {
+            "id": 1,
+            "day": "1",
+            "value": 240
+        },
+        {
+            "id": 2,
+            "day": "3",
+            "value": 260
+        },
+        {
+            "id": 3,
+            "day": "5",
+            "value": 300
+        },
+        {
+            "id": 4,
+            "day": "7",
+            "value": 280
+        },
+        {
+            "id": 5,
+            "day": "9",
+            "value": 320
+        },
+        {
+            "id": 6,
+            "day": "11",
+            "value": 300
+        },
+        {
+            "id": 7,
+            "day": "13",
+            "value": 260
+        },
+        {
+            "id": 8,
+            "day": "15",
+            "value": 400
+        },
+        {
+            "id": 9,
+            "day": "17",
+            "value": 320
+        },
+        {
+            "id": 10,
+            "day": "19",
+            "value": 280
+        },
+        {
+            "id": 11,
+            "day": "21",
+            "value": 300
+        },
+        {
+            "id": 12,
+            "day": "23",
+            "value": 260
+        },
+        {
+            "id": 13,
+            "day": "25",
+            "value": 280
+        },
+        {
+            "id": 14,
+            "day": "27",
+            "value": 240
+        },
+        {
+            "id": 15,
+            "day": "29",
+            "value": 260
+        }
+    ],
+    "funnel3Months": [
+        {
+            "id": 1,
+            "day": "Week 1",
+            "value": 1800
+        },
+        {
+            "id": 2,
+            "day": "Week 2",
+            "value": 2100
+        },
+        {
+            "id": 3,
+            "day": "Week 3",
+            "value": 1950
+        },
+        {
+            "id": 4,
+            "day": "Week 4",
+            "value": 2300
+        },
+        {
+            "id": 5,
+            "day": "Week 5",
+            "value": 2600
+        },
+        {
+            "id": 6,
+            "day": "Week 6",
+            "value": 2400
+        },
+        {
+            "id": 7,
+            "day": "Week 7",
+            "value": 2750
+        },
+        {
+            "id": 8,
+            "day": "Week 8",
+            "value": 3000
+        },
+        {
+            "id": 9,
+            "day": "Week 9",
+            "value": 2850
+        },
+        {
+            "id": 10,
+            "day": "Week 10",
+            "value": 3100
+        },
+        {
+            "id": 11,
+            "day": "Week 11",
+            "value": 2950
+        },
+        {
+            "id": 12,
+            "day": "Week 12",
+            "value": 3200
+        }
+    ],
+    "funnel6Months": [
+        {
+            "id": 1,
+            "day": "Jan",
+            "value": 8200
+        },
+        {
+            "id": 2,
+            "day": "Feb",
+            "value": 9100
+        },
+        {
+            "id": 3,
+            "day": "Mar",
+            "value": 8700
+        },
+        {
+            "id": 4,
+            "day": "Apr",
+            "value": 9800
+        },
+        {
+            "id": 5,
+            "day": "May",
+            "value": 10500
+        },
+        {
+            "id": 6,
+            "day": "Jun",
+            "value": 11200
+        }
+    ],
+    "funnelThisYear": [
+        {
+            "id": 1,
+            "day": "Jan",
+            "value": 8200
+        },
+        {
+            "id": 2,
+            "day": "Feb",
+            "value": 9100
+        },
+        {
+            "id": 3,
+            "day": "Mar",
+            "value": 8700
+        },
+        {
+            "id": 4,
+            "day": "Apr",
+            "value": 9800
+        },
+        {
+            "id": 5,
+            "day": "May",
+            "value": 10500
+        },
+        {
+            "id": 6,
+            "day": "Jun",
+            "value": 11200
+        },
+        {
+            "id": 7,
+            "day": "Jul",
+            "value": 10800
+        },
+        {
+            "id": 8,
+            "day": "Aug",
+            "value": 11600
+        },
+        {
+            "id": 9,
+            "day": "Sep",
+            "value": 12100
+        },
+        {
+            "id": 10,
+            "day": "Oct",
+            "value": 11900
+        },
+        {
+            "id": 11,
+            "day": "Nov",
+            "value": 12600
+        },
+        {
+            "id": 12,
+            "day": "Dec",
+            "value": 13400
+        }
+    ],
+    "funnelLastYear": [
+        {
+            "id": 1,
+            "day": "Jan",
+            "value": 6100
+        },
+        {
+            "id": 2,
+            "day": "Feb",
+            "value": 6800
+        },
+        {
+            "id": 3,
+            "day": "Mar",
+            "value": 6500
+        },
+        {
+            "id": 4,
+            "day": "Apr",
+            "value": 7200
+        },
+        {
+            "id": 5,
+            "day": "May",
+            "value": 7600
+        },
+        {
+            "id": 6,
+            "day": "Jun",
+            "value": 8100
+        },
+        {
+            "id": 7,
+            "day": "Jul",
+            "value": 7900
+        },
+        {
+            "id": 8,
+            "day": "Aug",
+            "value": 8300
+        },
+        {
+            "id": 9,
+            "day": "Sep",
+            "value": 8700
+        },
+        {
+            "id": 10,
+            "day": "Oct",
+            "value": 8500
+        },
+        {
+            "id": 11,
+            "day": "Nov",
+            "value": 9000
+        },
+        {
+            "id": 12,
+            "day": "Dec",
+            "value": 9600
+        }
+    ],
+    "watchlistDay": [
+        {
+            "id": 1,
+            "day": "9 AM",
+            "green": 220,
+            "orange": 70
+        },
+        {
+            "id": 2,
+            "day": "11 AM",
+            "green": 380,
+            "orange": 85
+        },
+        {
+            "id": 3,
+            "day": "1 PM",
+            "green": 450,
+            "orange": 100
+        },
+        {
+            "id": 4,
+            "day": "3 PM",
+            "green": 520,
+            "orange": 120
+        },
+        {
+            "id": 5,
+            "day": "5 PM",
+            "green": 160,
+            "orange": 105
+        },
+        {
+            "id": 6,
+            "day": "7 PM",
+            "green": 360,
+            "orange": 80
+        },
+        {
+            "id": 7,
+            "day": "9 PM",
+            "green": 500,
+            "orange": 65
+        }
+    ],
+    "watchlistWeek": [
+        {
+            "id": 1,
+            "day": "Mon",
+            "green": 140,
+            "orange": 75
+        },
+        {
+            "id": 2,
+            "day": "Tue",
+            "green": 300,
+            "orange": 90
+        },
+        {
+            "id": 3,
+            "day": "Wed",
+            "green": 470,
+            "orange": 105
+        },
+        {
+            "id": 4,
+            "day": "Thu",
+            "green": 540,
+            "orange": 125
+        },
+        {
+            "id": 5,
+            "day": "Fri",
+            "green": 460,
+            "orange": 100
+        },
+        {
+            "id": 6,
+            "day": "Sat",
+            "green": 180,
+            "orange": 85
+        },
+        {
+            "id": 7,
+            "day": "Sun",
+            "green": 330,
+            "orange": 70
+        }
+    ],
+    "watchlistMonth": [
+        {
+            "id": 1,
+            "day": "Jan",
+            "green": 640,
+            "orange": 75
+        },
+        {
+            "id": 2,
+            "day": "Feb",
+            "green": 400,
+            "orange": 90
+        },
+        {
+            "id": 3,
+            "day": "Mar",
+            "green": 470,
+            "orange": 105
+        },
+        {
+            "id": 4,
+            "day": "Apr",
+            "green": 540,
+            "orange": 125
+        },
+        {
+            "id": 5,
+            "day": "May",
+            "green": 600,
+            "orange": 140
+        },
+        {
+            "id": 6,
+            "day": "Jun",
+            "green": 520,
+            "orange": 120
+        },
+        {
+            "id": 7,
+            "day": "Jul",
+            "green": 160,
+            "orange": 100
+        },
+        {
+            "id": 8,
+            "day": "Aug",
+            "green": 400,
+            "orange": 90
+        },
+        {
+            "id": 9,
+            "day": "Sep",
+            "green": 160,
+            "orange": 80
+        },
+        {
+            "id": 10,
+            "day": "Oct",
+            "green": 330,
+            "orange": 70
+        },
+        {
+            "id": 11,
+            "day": "Nov",
+            "green": 400,
+            "orange": 90
+        },
+        {
+            "id": 12,
+            "day": "Dec",
+            "green": 170,
+            "orange": 105
+        }
+    ],
+    "devices": [
+        {
+            "id": 1,
+            "label": "Mobile",
+            "value": "96.42%",
+            "icon": "Smartphone"
+        },
+        {
+            "id": 2,
+            "label": "Desktop",
+            "value": "2.76%",
+            "icon": "Monitor"
+        },
+        {
+            "id": 3,
+            "label": "Tablet",
+            "value": "0.82%",
+            "icon": "Tablet"
+        },
+        {
+            "id": 4,
+            "label": "TV",
+            "value": "12.3%",
+            "icon": "Tv"
+        }
+    ],
+    "countries": [
+        {
+            "id": 1,
+            "label": "Pakistan",
+            "value": "54%",
+            "flag": "🇵🇰"
+        },
+        {
+            "id": 2,
+            "label": "Germany",
+            "value": "32%",
+            "flag": "🇩🇪"
+        },
+        {
+            "id": 3,
+            "label": "United State",
+            "value": "37%",
+            "flag": "🇺🇸"
+        },
+        {
+            "id": 4,
+            "label": "Spain",
+            "value": "25%",
+            "flag": "🇪🇸"
+        },
+        {
+            "id": 5,
+            "label": "France",
+            "value": "21%",
+            "flag": "🇫🇷"
+        },
+        {
+            "id": 6,
+            "label": "Brazil",
+            "value": "18%",
+            "flag": "🇧🇷"
+        },
+        {
+            "id": 7,
+            "label": "India",
+            "value": "44%",
+            "flag": "🇮🇳"
+        },
+        {
+            "id": 8,
+            "label": "Canada",
+            "value": "15%",
+            "flag": "🇨🇦"
+        }
+    ]
+}
