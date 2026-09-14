@@ -34,7 +34,7 @@ export default function TopCountries() {
                     setTotalPages(result.totalPages);
                 }
             } catch {
-                if (!cancelled) setError("تعذر تحميل بيانات الدول");
+                if (!cancelled) setError("Failed to load top countries.");
             } finally {
                 if (!cancelled) setIsLoading(false);
             }

@@ -9,7 +9,10 @@ const Register = () => {
             className="flex items-center justify-center h-screen bg-[#fafafa]/50 " >
             <div className="w-xs p-6 bg-white rounded-lg shadow-lg">
                 {/* Title */}
-                <h1 className=" mt-2 text-lg font-bold text-blue-400 text-center">Sign up for your account</h1>
+                <h1 className=" my-1 text-lg font-bold ">Sign up</h1>
+                <p className="mb-2 text-xs text-gray-500">
+                    Start your 30-day free trial.
+                </p>
                 {/* Form register */}
                 <div>
                     <FormRegister />

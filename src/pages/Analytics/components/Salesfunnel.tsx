@@ -124,7 +124,7 @@ export default function SalesFunnel() {
                     localStorage.setItem('funnelRange', range);
                 }
             } catch {
-                if (!cancelled) setError("تعذر تحميل بيانات المبيعات");
+                if (!cancelled) setError("Failed to load sales data.");
             } finally {
                 if (!cancelled) setIsLoading(false);
             }

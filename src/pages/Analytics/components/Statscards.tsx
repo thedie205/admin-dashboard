@@ -64,7 +64,7 @@ export default function StatsCards() {
                     setTotalPages(result.totalPages);
                 }
             } catch {
-                if (!cancelled) setError("تعذر تحميل الإحصائيات");
+                if (!cancelled) setError(" Failed to load stats data.");
             } finally {
                 if (!cancelled) setIsLoading(false);
             }

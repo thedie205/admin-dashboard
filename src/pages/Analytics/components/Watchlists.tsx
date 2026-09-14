@@ -51,7 +51,7 @@ export default function Watchlists() {
                     localStorage.setItem("watchlistRange", range);
                 }
             } catch {
-                if (!cancelled) setError("تعذر تحميل بيانات الـ Watchlist");
+                if (!cancelled) setError("   Failed to load watchlist data.");
             } finally {
                 if (!cancelled) setIsLoading(false);
             }

@@ -39,7 +39,7 @@ export default function DeviceCategory() {
                     setTotalPages(result.totalPages);
                 }
             } catch {
-                if (!cancelled) setError("تعذر تحميل بيانات الأجهزة");
+                if (!cancelled) setError("Failed to load device data.");
             } finally {
                 if (!cancelled) setIsLoading(false);
             }

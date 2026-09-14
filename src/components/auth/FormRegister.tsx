@@ -45,6 +45,7 @@ const FormRegister = () => {
     return (
         <form
             onSubmit={handleSubmit(onSubmit)}
+            className="flex w-full  flex-col gap-1"
         >
             {/* Name */}
             <div className="flex flex-col">
@@ -58,13 +59,15 @@ const FormRegister = () => {
                 <input
                     id="name"
                     type="text"
+                    placeholder="Enter your name"
+                    autoComplete="name"
                     {...register("name")}
-                    className="h-8 w-full rounded-md border border-gray-300 pl-2 text-sm focus:border-blue-500 focus:outline-none focus:ring focus:ring-blue-500"
+                    className="h-8 w-full rounded-md border border-gray-300 pl-2 text-xs focus:border-[#6E39CB] focus:outline-none focus:ring focus:ring-blue-500"
                 />
 
-                <div className="min-h-5">
+                <div className="min-h-[15px]">
                     {errors.name && (
-                        <p className="mt-1 text-sm text-red-500">
+                        <p className="my-1 text-xs text-red-500">
                             {errors.name.message}
                         </p>
                     )}
@@ -83,13 +86,15 @@ const FormRegister = () => {
                 <input
                     id="email"
                     type="email"
+                    placeholder="Enter your email"
+                    autoComplete="email"
                     {...register("email")}
-                    className="h-8 w-full rounded-md border border-gray-300 pl-2 text-sm focus:border-blue-500 focus:outline-none focus:ring focus:ring-blue-500"
+                    className="h-8 w-full rounded-md border border-gray-300 pl-2 text-xs focus:border-[#6E39CB] focus:outline-none focus:ring focus:ring-blue-500"
                 />
 
-                <div className="min-h-4">
+                <div className="min-h-[15px]">
                     {errors.email && (
-                        <p className="mt-1 text-sm text-red-500">
+                        <p className="mt-2 text-xs text-red-500">
                             {errors.email.message}
                         </p>
                     )}
@@ -108,33 +113,27 @@ const FormRegister = () => {
                 <input
                     id="password"
                     type="password"
+                    placeholder="••••••••••"
+                    autoComplete="current-password"
                     {...register("password")}
-                    className="h-8 w-full rounded-md border border-gray-300 pl-2 text-sm focus:border-blue-500 focus:outline-none focus:ring focus:ring-blue-500"
+                    className="h-8 w-full rounded-md border border-gray-300 pl-2 text-xs focus:border-[#6E39CB] focus:outline-none focus:ring focus:ring-blue-500"
                 />
 
-                <div className="min-h-4">
+                <div className="min-h-[15px]">
                     {errors.password && (
-                        <p className="mt-1 text-sm text-red-500">
+                        <p className="mt-1 text-xs text-red-500">
                             {errors.password.message}
                         </p>
                     )}
                 </div>
             </div>
 
-            {/* Register Error */}
-            <div className="h-5">
-                {registerError && (
-                    <p className="text-sm text-red-500">
-                        {registerError}
-                    </p>
-                )}
-            </div>
 
             {/* Submit */}
             <button
                 type="submit"
                 disabled={isLoading}
-                className="flex h-8 w-full items-center justify-center rounded-sm bg-blue-500 text-sm text-white transition hover:bg-blue-600 disabled:cursor-not-allowed disabled:opacity-70"
+                className="flex h-8 mt-3 w-full items-center justify-center rounded-sm bg-[#6E39CB] text-xs text-white transition hover:bg-[#5B2DB0] disabled:cursor-not-allowed disabled:opacity-70"
             >
                 {isLoading ? (
                     <span className="h-4 w-4 animate-spin rounded-full border-2 border-white border-t-transparent" />
@@ -145,11 +144,11 @@ const FormRegister = () => {
 
             {/* Login */}
             <div>
-                <p className="my-2 text-xs text-gray-700">
+                <p className="mt-4 text-xs text-gray-700">
                     Have an account?{" "}
                     <Link
                         to="/login"
-                        className="text-blue-500 hover:underline"
+                        className="text-[#6E39CB] hover:underline"
                     >
                         Sign in
                     </Link>
